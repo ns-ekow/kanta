@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.log
+.env
+.env.*
+coverage/
+docker-compose.override.yml
+docker-compose.*.yml
+services/*/node_modules/
+services/*/dist/
+services/*/*.log
+services/*/.env
+services/*/.env.*
+services/*/coverage/
+.DS_Store
+depop_development_guide.md
+.vscode/

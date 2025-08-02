@@ -1,0 +1,10 @@
+services:
+  authservice:
+    image: authservice
+    build:
+      context: services/auth-service
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 4000:4000
